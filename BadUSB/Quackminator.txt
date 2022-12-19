@@ -1,4 +1,4 @@
-REM TITLE: Quackdowner
+REM TITLE: Quackminator
 REM AUTHOR: KosteQ
 REM DESCRIPTION: Program will termiante all aplications and shutdown the PC
 
