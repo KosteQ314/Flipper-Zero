@@ -3,6 +3,8 @@ REM AUTHOR: KosteQ
 REM DESCRIPTION: This script will clean the C drive of the connected PC
 REM !!NOTE!! Only do this if you are allowed to do this as it may lead to loss of data.
 REM DESCRIPTION: This program will clean disks C:/ connected to the PC
+REM DESCRIPTION: This script will clean the C drive of the connected PC
+REM !!NOTE!! Only do this if you are allowed to do this as it may lead to loss of data.
 
 DELAY 1000
 GUI r
